@@ -1,11 +1,12 @@
-import "./Landing.css";
+import GetStarted from './library/GetStarted'
 
 const Landing = () => {
   return (
-    <div className="splash">
-      <h1>Welcome to Lithia Motors</h1>
-    </div>
-  );
-};
+    <section>
+      <h1 className='h1'>Welcome to Lithia Motors Service!</h1>
+      <GetStarted />
+    </section>
+  )
+}
 
-export default Landing;
+export default Landing

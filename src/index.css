@@ -1,6 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 40px;
   color: #0292d3;
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
 }
+
+.centerPage {
+  @apply flex flex-col justify-center items-center min-h-screen h-full w-screen text-center
+}
+
+.h1 {
+  @apply text-[1.5rem] lg:text-[2.5rem] font-bold mb-5
+}
+
